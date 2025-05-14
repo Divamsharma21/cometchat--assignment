@@ -11,7 +11,16 @@ content: |
   This React app demonstrates integration of CometChat’s UI Kit using their **Visual Builder**, enabling quick integration of pre-built chat components.
 
   ---
- 
+ ### folder structure
+  cometchat-demo/
+├── node_modules/
+├── public/
+├── src/
+│   ├── cometchat. config.js         # Your CometChat keys
+│   ├── CometChatWorkspace/         # Copied UI Kit
+│   └── App.js                      # Main logic
+├── package.json
+└── README.md
  
 
 ### 🔐 Test Login UID
